@@ -1,0 +1,144 @@
+/* Reset global CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    height: 80px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+.logo {
+    position: absolute;
+    width: 38px;
+    height: 47.5px;
+    left: 112px;
+    top: 16px;
+}
+
+.logo-name {
+    position: absolute;
+    width: 111px;
+    height: 35px;
+    left: 164px;
+    top: 22px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+    position: absolute;
+    width: 577px;
+    height: 21px;
+    right: 112px;
+    top: 30px;
+}
+
+.menu-item {
+    height: 21px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #14171F;
+}
+
+.menu-item:last-child {
+    color: #F9995D;
+}
+
+.main {
+    position: relative;
+    height: 646px;
+    left: 0px;
+    right: 0px;
+    top: 80px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%), url(./assets/Backgound1.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.main-content {
+    position: absolute;
+    width: 556px;
+    height: 168px;
+    left: calc(50% - 556px/2 - 330px);
+    top: 239px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 84px;
+    color: #292E3D;
+}
+
+.container-feature-projects {
+    position: relative;
+    width: 416px;
+    height: 190px;
+    left: 1024px;
+    top: 456px;
+    background: #3559C7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px 10px;
+    gap: 20px;
+}
+
+.feature-projects {
+    width: 163px;
+    height: 23px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.content {
+    width: 312px;
+    height: 61px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button-container {
+    /* display: inline-block; */
+    /* justify-content: space-between; */
+    width: 416px;
+    height: 40px;
+    padding: 4px 20px;
+    gap: 10px;
+    position: relative;;
+    bottom: 0px;
+    /* flex-direction: row; */
+}
+.button {
+    position: absolute;
+    width: 208px;
+    height: 40px;
+    background: #292E3D;
+    transform: rotate(-180deg);
+}

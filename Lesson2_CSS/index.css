@@ -1,0 +1,27 @@
+html, body {
+    background-color: #DFEEF0;
+    font-family: Arial;
+}
+hr {
+    border-top: 5px dashed #4A6364;
+}
+span {
+    color: #65898B;
+    /* font-family: Arial; */
+    font-size: 20px;
+    font-weight: bold;
+}
+img {
+    border-radius: 50%;
+}
+.star {
+    font-size: 20px; /* Kích thước icon */
+    color: #FFD700; /* Màu sắc icon */
+    text-shadow: 1px 1px #666666; /* Đổ bóng cho icon */
+}
+h2 {
+    color: #65898B;
+}
+h3 {
+    color: #65898B;
+}
