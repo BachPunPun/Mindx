@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
 header {
     position: absolute;
     height: 80px;
@@ -28,7 +32,6 @@ header {
     height: 35px;
     left: 164px;
     top: 22px;
-    font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
@@ -49,7 +52,6 @@ header {
 
 .menu-item {
     height: 21px;
-    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -78,7 +80,6 @@ header {
     height: 168px;
     left: 112px;
     top: 239px;
-    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 72px;
@@ -105,7 +106,6 @@ header {
 .feature-projects {
     width: 163px;
     height: 23px;
-    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -117,7 +117,6 @@ header {
 .content {
     width: 312px;
     height: 61px;
-    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -137,7 +136,6 @@ header {
     position: absolute;
     right: 0px;
     bottom: 0px;
-    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -179,7 +177,7 @@ header {
 
 .button2::after {
     display: inline-block;
-    content: '';
+    content: "";
     width: 26px;
     height: 17px;
     margin-left: 10px;
@@ -194,7 +192,6 @@ header {
     left: 0px;
     right: 0px;
     top: 80px;
-    font-family: 'Work Sans';
 }
 
 .reputation-content {
@@ -212,6 +209,12 @@ header {
     justify-content: center;
     margin-top: 50px;
 }
+.reputation-img{
+    width: 60px;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
 
 .reputation-item {
     width: 292px;
@@ -222,7 +225,7 @@ header {
 .row2-reputation-item {
     font-size: 20px;
     font-weight: bold;
-    padding-top: 78px;
+    padding-top: 18px;
     padding-left: 20px;
 }
 
@@ -240,5 +243,29 @@ header {
     right: 0px;
     top: 80px;
     height: 945px;
-    border: 2px solid red;
+}
+
+.container-about-us {
+    width: 488px;
+    height: 523px;
+    position: absolute;
+    top: 147px;
+    right: 112px;
+    background-color: #2947A9;
+}
+
+.tittle-about-us {
+    padding-top: 50px;
+    padding-left: 40px;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.content-about-us {
+    font-size: 20px;
+    color: white;
+    padding-top: 37px;
+    padding-left: 40px;
+    padding-right: 60px;
 }
