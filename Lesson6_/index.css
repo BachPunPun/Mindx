@@ -76,7 +76,7 @@ header {
     position: absolute;
     width: 556px;
     height: 168px;
-    left: calc(50% - 556px/2 - 330px);
+    left: 112px;
     top: 239px;
     font-family: 'Work Sans';
     font-style: normal;
@@ -87,16 +87,18 @@ header {
 }
 
 .container-feature-projects {
-    position: relative;
+    position: absolute;
     width: 416px;
-    height: 190px;
-    left: 1024px;
-    top: 456px;
+    height: 150px;
+    right: 0px;
+    bottom: 40px;
     background: #3559C7;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 10px 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     gap: 20px;
 }
 
@@ -125,20 +127,64 @@ header {
 }
 
 .button-container {
-    /* display: inline-block; */
-    /* justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
     width: 416px;
     height: 40px;
-    padding: 4px 20px;
-    gap: 10px;
     position: relative;;
     bottom: 0px;
-    /* flex-direction: row; */
-}
-.button {
+    flex-direction: row;
     position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.button1 {
+    position: relative;
     width: 208px;
     height: 40px;
-    background: #292E3D;
-    transform: rotate(-180deg);
+    background-color: #292e3d;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.button1::before {
+    display: inline-block;
+    content: '';
+    width: 26px;
+    height: 17px;
+    margin-right: 10px;
+    background-image: url(./assets/icon-left.png);
+    background-size: 100%;
+    color: #fff;
+}
+
+.button2 {
+    position: relative;
+    width: 208px;
+    height: 40px;
+    background-color: #292e3d;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button2::after {
+    display: inline-block;
+    content: '';
+    width: 26px;
+    height: 17px;
+    margin-left: 10px;
+    background-image: url(./assets/icon-right.png);
+    background-size: 100%;
+    color: #fff;
+}
+  
