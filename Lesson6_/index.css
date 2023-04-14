@@ -187,4 +187,58 @@ header {
     background-size: 100%;
     color: #fff;
 }
-  
+
+.reputation {
+    height: 433px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 80px;
+    font-family: 'Work Sans';
+}
+
+.reputation-content {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.container-reputation {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 66px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.reputation-item {
+    width: 292px;
+    height: 197px;
+    border: 1.4px solid #E0E3EB;
+}
+
+.row2-reputation-item {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 78px;
+    padding-left: 20px;
+}
+
+.row3-reputation-item {
+    font-size: 16px;
+    padding-top: 18px;
+    padding-left: 20px;
+    padding-right: 18px;
+    color: #858EAD;
+}
+
+.about-us {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 80px;
+    height: 945px;
+    border: 2px solid red;
+}
